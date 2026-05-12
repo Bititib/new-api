@@ -1,0 +1,19 @@
+# 忽略环境变量配置
+.env
+.env.*
+
+# 忽略本地数据库和数据存储 (NewAPI 默认产生的)
+data/
+*.db
+*.sqlite
+*.sqlite3
+one-api.db
+new-api.db
+
+# 忽略日志文件
+logs/
+*.log
+
+# 忽略已编译的二进制程序 (防止仓库过大)
+new-api
+one-api
